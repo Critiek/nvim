@@ -22,3 +22,5 @@ git clone https://github.com/Critiek/nvim ~\appdata\local\nvim
 ```shell
 git clone https://github.com/Critiek/nvim ~/.config/nvim
 ```
+
+Enjoy! I guess, hehe
