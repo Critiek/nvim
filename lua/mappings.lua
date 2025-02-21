@@ -21,3 +21,10 @@ map({ "n", "v" }, "D", '"_D')
 
 map({ "n", "v" }, "c", '"_c')
 map({ "n", "v" }, "C", '"_C')
+
+-- nvim-tree mappings
+map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
+map("n", "<C-n>", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
+
+-- telescope mappings
+map("n", "<leader><leader>", "<cmd>Telescope find_files<cr>", { desc = "telescope find files" })
