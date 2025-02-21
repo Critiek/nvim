@@ -8,6 +8,7 @@ local servers = {
   cssls = {},
   rust_analyzer = {},
 
+  ruff = {},
   pyright = {
     settings = {
       python = {
