@@ -15,10 +15,10 @@ My current Neovim configuration, based on [NvChad](https://nvchad.com)
 
 **Windows**
 ```shell
-git clone https://github.com/Critiek/lazy.nvim-config ~\appdata\local\nvim
+git clone https://github.com/Critiek/nvim ~\appdata\local\nvim
 ```
 
 **Linux/MacOS**
 ```shell
-git clone https://github.com/Critiek/lazy.nvim-config ~/.config/nvim
+git clone https://github.com/Critiek/nvim ~/.config/nvim
 ```
