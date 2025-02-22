@@ -22,6 +22,10 @@ map({ "n", "v" }, "D", '"_D')
 map({ "n", "v" }, "c", '"_c')
 map({ "n", "v" }, "C", '"_C')
 
+-- repeat > and <
+map("v", ">", ">gv", { noremap = true, silent = true })
+map("v", "<", "<gv", { noremap = true, silent = true })
+
 -- nvim-tree mappings
 map("n", "<leader>e", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
 map("n", "<C-n>", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
