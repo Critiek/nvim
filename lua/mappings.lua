@@ -32,3 +32,6 @@ map("n", "<C-n>", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
 
 -- telescope mappings
 map("n", "<leader><leader>", "<cmd>Telescope find_files<cr>", { desc = "telescope find files" })
+
+-- Open floating diagnostic window
+map("n", "<leader>of", function() vim.diagnostic.open_float() end, opts)
