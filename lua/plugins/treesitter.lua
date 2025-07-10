@@ -28,6 +28,7 @@ return {
       "yaml",
       "nu",
       "svelte",
+      "powershell",
     },
   },
 }

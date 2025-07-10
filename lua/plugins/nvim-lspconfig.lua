@@ -9,6 +9,7 @@ return {
       ruff = {},
 
       nushell = {},
+      powershell_es = {},
 
       tailwindcss = {},
       svelte = {},
