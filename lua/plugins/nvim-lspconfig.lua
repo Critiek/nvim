@@ -15,7 +15,7 @@ return {
       svelte = {},
       html = {},
       cssls = {},
-      vtsls = {},
+      ts_ls = {},
     },
   },
 }
