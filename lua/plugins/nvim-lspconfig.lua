@@ -8,6 +8,8 @@ return {
       pyright = {},
       ruff = {},
 
+      rust_analyzer = {},
+
       nushell = {},
       powershell_es = {},
 
