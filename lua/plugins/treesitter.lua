@@ -29,6 +29,7 @@ return {
       "nu",
       "svelte",
       "powershell",
+      "rust",
     },
   },
 }
